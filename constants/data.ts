@@ -3,32 +3,32 @@ import images from "./images";
 
 export const cards = [
   {
-    title: "Card 1",
-    location: "Location 1",
+    name: "Card 1",
+    address: "Location 1",
     price: "$100",
     rating: 4.8,
     category: "house",
     image: images.newYork,
   },
   {
-    title: "Card 2",
-    location: "Location 2",
+    name: "Card 2",
+    address: "Location 2",
     price: "$200",
     rating: 3,
     category: "house",
     image: images.japan,
   },
   {
-    title: "Card 3",
-    location: "Location 3",
+    name: "Card 3",
+    address: "Location 3",
     price: "$300",
     rating: 2,
     category: "flat",
     image: images.newYork,
   },
   {
-    title: "Card 4",
-    location: "Location 4",
+    name: "Card 4",
+    address: "Location 4",
     price: "$400",
     rating: 5,
     category: "villa",
@@ -38,16 +38,16 @@ export const cards = [
 
 export const featuredCards = [
   {
-    title: "Featured 1",
-    location: "Location 1",
+    name: "Featured 1",
+    address: "Location 1",
     price: "$100",
     rating: 4.8,
     image: images.newYork,
     category: "house",
   },
   {
-    title: "Featured 2",
-    location: "Location 2",
+    name: "Featured 2",
+    address: "Location 2",
     price: "$200",
     rating: 3,
     image: images.japan,
@@ -56,15 +56,15 @@ export const featuredCards = [
 ];
 
 export const categories = [
-  { title: "All", category: "All" },
-  { title: "Houses", category: "House" },
-  { title: "Condos", category: "Condos" },
-  { title: "Duplexes", category: "Duplexes" },
-  { title: "Studios", category: "Studios" },
-  { title: "Villas", category: "Villa" },
-  { title: "Apartments", category: "Apartments" },
-  { title: "Townhomes", category: "Townhomes" },
-  { title: "Others", category: "Others" },
+  {title: "All", category: "All"},
+  {title: "Houses", category: "House"},
+  {title: "Condos", category: "Condos"},
+  {title: "Duplexes", category: "Duplexes"},
+  {title: "Studios", category: "Studios"},
+  {title: "Villas", category: "Villa"},
+  {title: "Apartments", category: "Apartments"},
+  {title: "Townhomes", category: "Townhomes"},
+  {title: "Others", category: "Others"},
 ];
 
 export const settings = [
